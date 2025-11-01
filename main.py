@@ -77,11 +77,10 @@ def api_convert():
         return jsonify({"error": str(e)}), 400
 
 
-# Serve a blank response for favicon requests so the browser tab doesn't show a default icon
+# Serve the dollar sign favicon from the static directory
 @app.route('/favicon.ico')
 def favicon():
-    # Returning 204 No Content prevents browsers from showing a default favicon in many cases.
-    return ('', 204)
+    return app.send_from_directory('static', 'favicon.ico', mimetype='image/x-icon')
 
 
 import webbrowser
