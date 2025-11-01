@@ -89,6 +89,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Leandro Timoteo - [@LeandroTimoteo](https://github.com/LeandroTimoteo)
+**Systems Analyst:** Leandro Timoteo Silva
+
+- 📧 **Email:** [leandrinhots6@gmail.com](mailto:leandrinhots6@gmail.com)
+- 💼 **LinkedIn:** [linkedin.com/in/leandro-timóteo-ads](https://www.linkedin.com/in/leandro-timóteo-ads)
+- 📱 **WhatsApp:** [Send message](https://wa.me/5583987830223)
+- 💻 **GitHub:** [@LeandroTimoteo](https://github.com/LeandroTimoteo)
 
 Project Link: [https://github.com/LeandroTimoteo/Currency-Converter](https://github.com/LeandroTimoteo/Currency-Converter)
