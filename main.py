@@ -12,7 +12,12 @@ RATES = {
     "JPY": 151.45,    # Iene Japonês
     "CAD": 1.37,      # Dólar Canadense
     "AUD": 1.53,      # Dólar Australiano
-    "CNY": 7.23       # Yuan Chinês
+    "CNY": 7.23,      # Yuan Chinês
+    # Principais criptomoedas (valores de exemplo em USD)
+    # OBS: Estes são preços estáticos de referência. Para produção, integrar API de preços (CoinGecko, CoinMarketCap, etc.).
+    "BTC": 60000.0,   # Bitcoin (USD)
+    "ETH": 3500.0,    # Ethereum (USD)
+    "TRX": 0.06       # TRON (USD)
 }
 
 
