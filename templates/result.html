@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
-    <title>Resultado - Conversor</title>
+    <title>Conversion Result</title>
     <style>
       body{font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial;background:#f7f8fb;margin:0;padding:20px}
       .container{max-width:440px;margin:0 auto}
@@ -18,15 +18,15 @@
   <body>
     <div class="container">
       <div class="card">
-        <h1>Resultado da Conversão</h1>
+        <h1>Conversion Result</h1>
 
         {% if error %}
-          <p class="error">Erro: {{ error }}</p>
+          <p class="error">Error: {{ error }}</p>
         {% else %}
           <p class="result">{{ valor }} {{ origem }} = {{ "%.2f" % resultado }} {{ destino }}</p>
         {% endif %}
 
-        <a class="button" href="/">← Nova conversão</a>
+        <a class="button" href="/">← New conversion</a>
       </div>
     </div>
   </body>

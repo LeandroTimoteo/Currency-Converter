@@ -26,11 +26,11 @@ def convert_value(amount: float, src: str, dst: str) -> float:
     src = src.upper()
     dst = dst.upper()
     if src not in RATES:
-        raise ValueError(f"Moeda de origem não suportada: {src}")
+        raise ValueError(f"Source currency not supported: {src}")
     if dst not in RATES:
-        raise ValueError(f"Moeda de destino não suportada: {dst}")
+        raise ValueError(f"Target currency not supported: {dst}")
     if amount < 0:
-        raise ValueError("O valor deve ser não negativo")
+        raise ValueError("Amount must be non-negative")
 
     # Converte para USD e depois para a moeda destino
     valor_em_usd = amount / RATES[src]
@@ -66,14 +66,14 @@ def api_convert():
     """API JSON: {"amount": 10, "from": "BRL", "to": "USD"} -> {"result": 1.96} """
     data = request.get_json(force=True)
     if not data:
-        return jsonify({"error": "JSON inválido"}), 400
+        return jsonify({"error": "Invalid JSON"}), 400
 
     try:
         amount = float(data.get("amount"))
         src = data.get("from", "").upper()
         dst = data.get("to", "").upper()
     except Exception:
-        return jsonify({"error": "Parâmetros inválidos"}), 400
+        return jsonify({"error": "Invalid parameters"}), 400
 
     try:
         result = convert_value(amount, src, dst)
