@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template, jsonify
+from flask import Flask, request, render_template, jsonify, Response
 import os
 
 app = Flask(__name__)
@@ -82,10 +82,10 @@ def api_convert():
         return jsonify({"error": str(e)}), 400
 
 
-# Serve the dollar sign favicon from the static directory
+# Return no content for favicon requests to prevent browser from showing any icon
 @app.route('/favicon.ico')
 def favicon():
-    return app.send_from_directory('static', 'favicon.ico', mimetype='image/x-icon')
+    return '', 204
 
 
 import webbrowser
