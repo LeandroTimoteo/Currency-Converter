@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <title>Resultado - Conversor</title>
+    <style>
+      body{font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial;background:#f7f8fb;margin:0;padding:20px}
+      .container{max-width:440px;margin:0 auto}
+      .card{background:#fff;padding:18px;border-radius:12px;box-shadow:0 6px 20px rgba(11,95,255,0.06)}
+      h1{font-size:1.1rem;margin:0 0 12px}
+      p{margin:8px 0}
+      .result{font-size:1.25rem;font-weight:700;color:#0b5fff}
+      .error{color:#b91c1c;font-weight:600}
+      a.button{display:inline-block;margin-top:12px;padding:10px 14px;border-radius:10px;background:#eef2ff;color:#073b8c;text-decoration:none}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h1>Resultado da Conversão</h1>
+
+        {% if error %}
+          <p class="error">Erro: {{ error }}</p>
+        {% else %}
+          <p class="result">{{ valor }} {{ origem }} = {{ "%.2f" % resultado }} {{ destino }}</p>
+        {% endif %}
+
+        <a class="button" href="/">← Nova conversão</a>
+      </div>
+    </div>
+  </body>
+</html>
