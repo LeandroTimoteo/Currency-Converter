@@ -191,4 +191,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Thanks to all contributors who have helped shape this project
 - Special thanks to the Flask community for the excellent framework
-- Built with ❤️ by Leandro Timoteo
+- Developed by Leandro Timoteo
