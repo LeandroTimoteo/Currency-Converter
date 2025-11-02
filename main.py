@@ -88,6 +88,12 @@ def favicon():
     return '', 204
 
 
+# Simple health check endpoint for hosting providers and load balancers
+@app.route("/healthz")
+def healthz():
+    return "ok", 200
+
+
 import webbrowser
 import threading
 
