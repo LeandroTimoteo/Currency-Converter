@@ -183,9 +183,18 @@ Senior Systems Analyst
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:leandrinhots6@gmail.com)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5583987830223)
 
-## License
+## 📸 Captura de Tela
+![Currency Converter Screenshot](imagem/captura.png)
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+🔗 [Demo Online](https://currency-converter-pyo3.onrender.com)
+
+
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
 
 ## Acknowledgments
 
