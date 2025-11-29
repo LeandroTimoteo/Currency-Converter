@@ -184,17 +184,13 @@ Senior Systems Analyst
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5583987830223)
 
 ## 📸 Captura de Tela
-![Currency Converter Screenshot](imagem/captura.png)
-
+![Currency Converter Screenshot](imagem/screenshot.png)
 
 🔗 [Demo Online](https://currency-converter-pyo3.onrender.com)
-
-
 
 ## 📜 License
 
 This project is licensed under the [MIT License](LICENSE).
-
 
 ## Acknowledgments
 
